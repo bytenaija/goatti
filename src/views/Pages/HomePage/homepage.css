@@ -1,0 +1,57 @@
+.homepage {
+    font-family: 'montserrat'
+}
+
+header {
+    background: url('../../../assets/images/HeaderBackground.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 35rem;
+}
+
+.header-2{
+    min-height: 15rem;
+}
+.nav-item{
+    color: #fff !important;
+    font-family: 'montserrat' !important;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-family: 'montserrat' !important;
+    text-align: center;
+}
+
+.nav-item button{
+    background-color: #46CC6C !important;
+    width: 10rem;
+}
+
+header .container{
+    color: #fff;
+    margin-top: 2rem;
+}
+
+header .container button{
+    background-color: #46CC6C !important;
+    width: 15rem;
+    height: 3rem;
+    box-shadow: 0px .5px 2rem black;
+    margin-top: 2rem;
+}
+
+header .container .stores{
+margin-top: 2rem;
+}
+
+.brandImage{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 2rem;
+}

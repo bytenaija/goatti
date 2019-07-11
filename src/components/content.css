@@ -1,0 +1,438 @@
+section{
+    display: flex;
+    flex-direction: 'row';
+
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.left,  .right{
+    align-content: space-between;
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+
+}
+
+.left h4,  .right h4{
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+}
+
+.center{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+.center img{
+    justify-content: center;
+    align-content: center;
+
+}
+.flex{
+    display: flex;
+    flex-direction: 'row';
+    align-content: space-between;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.flex .img{
+   height: 1rem;
+}
+
+.content-page{
+    padding-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+article.join{
+    margin-top: 2rem;
+    text-align: center;
+    width: 100% !important;
+    min-height: 8rem;
+    padding: 2rem;
+}
+
+article.join h4{
+    margin-bottom: 2rem;
+}
+
+article.join button{
+    background-color: #46CC6C !important;
+    border-color: #46CC6C !important;
+    width: 10rem;
+}
+
+.content-page-stats{
+    margin: 2rem auto;
+    padding: 2rem;
+    min-height: 5rem;
+}
+
+.content-page-stats .row{
+    text-align: center;
+    align-items: center;
+}
+
+.content-page-stats .col{
+ border-radius: 50%;
+ background-color: #A30619;
+ border: solid .5rem #620611;
+ height: 10rem;
+ margin: 10px;
+ color: #fff;
+ text-align: center;
+padding: 1.5rem;
+font-family: 'Kanit';
+}
+
+.content-page-stats .col p{
+    font-size: 12px;
+}
+
+.content-page-how{
+    margin: 0;
+    margin-top: 2rem;
+    padding: 3rem;
+    padding-top: 2rem;
+    background: url('../assets/images/ContentBackground.png') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    width: 100% !important;
+    max-height: 650px;
+
+}
+
+
+
+.content-page-how h4{
+    text-align: center;
+}
+
+.content-page-how div{
+    width: 100%;
+}
+
+.content-page-how .col{
+    text-align: left;
+}
+.content-page-how .col h4{
+    text-align: left;
+}
+
+.img{
+    width: 20% !important;
+}
+
+.txt{
+    width: 80% !important;
+}
+
+.content-page-how .col h4{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.content-page-how .col p{
+    text-align: left;
+    font-size: 15px;
+
+}
+
+.content-page-investments{
+    margin: 0;
+    margin-top: 2rem;
+    padding: 3rem;
+    padding-top: 2rem;
+
+    text-align: center;
+    width: 100% !important;
+
+
+}
+
+.inv-header{
+    color: #fff;
+    text-align: center;
+    font-family: 'Kanit';
+    padding: .5rem;
+    vertical-align: middle;
+}
+
+.inv-header.basic{
+    background-color: #4C4C4C;
+}
+
+.inv-header.intermediate{
+    background-color: #CC7E46;
+}
+
+.inv-header.standard{
+    background-color: #46CC6C;
+}
+
+.content-page-investments h4{
+    text-align: center;
+}
+
+.content-page-investments div{
+    width: 100%;
+}
+
+.content-page-investments [class*=col]{
+    text-align: left;
+    margin: 0rem !important;
+    padding: .1rem !important
+}
+
+.content-page-investments .row{
+
+    margin: 0rem !important;
+    padding: 0rem !important
+}
+.content-page-investments [class*=col] h4{
+    text-align: left;
+}
+
+.content-page-investments [class*=col] p{
+    text-align: left;
+    font-size: 15px;
+
+}
+
+.content-page-partners{
+    text-align: center;
+    font-family: 'Kanit';
+    min-height: 200px;
+    background-color: #EBF7F4;
+    padding: 2rem;
+}
+
+.content-page-partners img{
+ width: 80px;
+
+}
+
+.footer{
+    background-color: #2B2B2B;
+    min-height: 300px;
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+}
+
+.footer img{
+    width: 100px;
+}
+
+.footer [class*=col] .nav-link{
+
+    text-align: left !important;
+}
+
+.second{
+    padding-top: 4.2rem;
+}
+
+.footer h4, .footer h5{
+    font-family: 'Kanit';
+    color: #fff;
+}
+
+.footer .icon {
+    width: 2rem;
+}
+
+.footer .col {
+    color: #fff;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 1rem 0;
+    padding: 0;
+    width: 100%;
+}
+
+.footer button{
+    margin-top: .5rem;
+    background-color: #46CC6C !important;
+    border-color: #46CC6C !important;
+    width: 100%;
+}
+
+.social-media{
+    margin-top: 2rem;
+}
+
+.social-media .col{
+   margin: 0 !important;
+   padding: 0 !important;
+}
+
+img.socials{
+    width: 3rem;
+}
+
+.apps .col{
+    margin: 2rem !important;
+    padding: 1rem !important;
+ }
+
+ .copy{
+     color: #fff;
+ }
+
+ .copy .right{
+     text-align: right;
+ }
+
+
+ .investment-calc{
+     background-color: #A30619;
+     width: 100%;
+     min-height: 80%;
+     padding: 1rem;
+     color: #fff;
+     padding-bottom: 2rem;
+ }
+
+ .investment-calc h4{
+     color: #fff;
+     font-family: 'Kanit';
+ }
+
+ .investment-calc img{
+     width: 4rem;
+ }
+
+ .investment-calc input{
+     text-align: center;
+     margin-bottom: 2rem;
+ }
+ .inv-content{
+    background-color: #F6F6F6;
+
+    text-align: center;
+    padding: 1rem;
+ }
+
+ .inv-content h4, .inv-content h6{
+     font-family: 'Kanit';
+     text-align: center !important;
+     width: 100%;
+ }
+ .inv-content .row{
+    text-align: center;
+    border-bottom: solid black 1px;
+    padding: .2rem 0 !important;
+    font-size: 14px;
+
+ }
+
+ .fa-check {
+    border: solid 1px #4C4C4C !important;
+    border-radius: 50%;
+    text-align: right;
+    color: #4C4C4C;
+}
+
+.inv-content .col-md-3{
+    text-align: right;
+
+}
+
+.inv-content.intermediate .fa-check{
+    border: solid 1px #CC7E46 !important;
+    color: #CC7E46;
+
+}
+
+.inv-content.standard .fa-check{
+    border: solid 1px #46CC6C !important;
+    color: #46CC6C;
+
+}
+
+.inv-footer a{
+    width: 100% !important;
+    height: 2.5rem;
+    background-color: #4C4C4C;
+    font-family: 'Kanit' !important;
+}
+
+.inv-footer.intermediate a{
+    background-color: #CC7E46 !important;
+    border-color: #CC7E46 !important;
+}
+
+.inv-footer.standard a{
+    background-color: #46CC6C !important;
+    border-color: #46CC6C !important;
+}
+
+.navbar-toggler-icon{
+    border-bottom: 1px solid white;
+    height: 10px;
+}
+
+.navbar-toggler-icon::after{
+    content: '';
+    border-top: 1px solid white;
+    width: 100%;
+    display: block;
+
+}
+
+.navbar-toggler-icon::before{
+    content: '';
+    border-top: 1px solid white;
+    width: 100%;
+    display: block;
+    height: 20px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .content-page-how{
+
+        min-height: 900px;
+        max-height: 1900px;
+
+    }
+
+    .join{
+        margin-top: 2rem !important;
+    }
+
+    .middle img{
+        width: 80%;
+    }
+
+    .content-page-how .col-sm-12 h4, .content-page-how .col-sm-12 p{
+        text-align: center;
+    }
+
+    .content-page-how div{
+        margin: auto;
+        padding: 0px !important;
+    }
+      }
+
+      .auth{
+        display: inherit;
+      }

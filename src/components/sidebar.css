@@ -1,0 +1,45 @@
+nav.sidebar.shrink{
+
+  padding: 1rem 2rem;
+
+
+}
+
+nav.sidebar {
+  background: #2b2b2b;
+  color: white;
+  min-height: 100vh;
+  padding: 1rem;
+  height: 100%;
+}
+
+nav.sidebar.full {
+
+  padding: .2rem;
+
+}
+
+nav a{
+  color: white;
+}
+
+.svg-inline--fa.fa-2x{
+
+  margin-right: 1rem;
+}
+
+.nav-piv{
+  display: grid;
+  justify-items: center;
+  grid-template-columns: .2fr .8fr;
+  align-items: center;
+  padding: 1rem;
+}
+
+.btn-side,
+.btn-side:hover,
+.btn-side:active {
+  background: none;
+  padding: 0;
+  border: none;
+}

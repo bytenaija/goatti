@@ -1,0 +1,78 @@
+/* @import url('https://fonts.googleapis.com/css?family=Raleway'); */
+.app {
+    width: 100vw;
+    background: url('../../../assets/images/LoginScreenBackground.png');
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Raleway'
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  font-family: 'Raleway'
+}
+
+.card-group{
+  margin-top: 15% !important;
+   font-family: 'Raleway'
+}
+
+.card{
+   font-family: 'Raleway'
+}
+
+.card h1{
+   font-family: 'Raleway'
+}
+
+.bg-primary{
+  background-color: #2b2b2b !important;
+}
+.bg-primary span{
+  display: block;
+  color: #C24452;
+
+}
+.bg-primary h3{
+  color: #fff;
+     font-family: 'Raleway'
+}
+
+.bg-primary img{
+  width: 20vmin;
+  height: auto;
+}
+
+.swal2-popup.swal2-modal.swal2-show{
+  margin-top: 50px !important;
+}
+
+#swal2-title,
+#swal2-content {
+  color: red;
+}
+
+.btn.btn-secondary{
+      background-color: #46CC6C !important;
+      width: 10rem;
+      height: 3rem;
+      box-shadow: 0px 0.5px 2rem black;
+
+
+}
+
+.btn.btn-pri{
+   background-color: #46CC6C !important;
+   box-shadow: 0px 0.5px .5rem black;
+
+   color: #fff;
+}
+
+.btn{
+   font-family: 'Raleway'
+}
